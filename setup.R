@@ -27,4 +27,11 @@ for (subdir in results_subdirs) {
 }
 setwd(code_dir)
 save(proj_dir,data_dir,code_dir,results_dir,file =  "dir_parameters.R")
+install.packages("data.table")
+install.packages("stringr")
+install.packages("dplyr")
+install.packages("tidyr")
+install.packages("BGLR")
+install.packages("proxy")
+install.packages("caret")
 setwd(proj_dir)
