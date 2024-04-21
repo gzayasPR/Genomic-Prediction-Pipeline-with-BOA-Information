@@ -5,7 +5,7 @@ setwd(code_dir)
 
 # Change the working directory to the results directory and load QC parameters
 setwd(file.path(results_dir, "3.Matrices/output/"))
-source(paste("../input/",Parameters,sep=""))
+source("../input/3.Matrix_Structure_parameters.R")
 
 # Load cleaned matrices and phenotypes
 load(cleaned_matrices)
