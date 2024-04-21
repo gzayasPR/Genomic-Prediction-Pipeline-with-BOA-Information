@@ -1,0 +1,10 @@
+pheno <- "../../../data/Example/Thermo.Phenotypes.csv"
+ID.col <- 1
+trait.col <- 5
+fixed.effects <- 2
+trait.name <- "TSS"
+matrices_path <- paste("../../3.Matrices/output/",trait.name,sep="")
+model.fit <- "GBLUP"
+K <- 5
+nIter <- 6000
+burnIn <- 1000
