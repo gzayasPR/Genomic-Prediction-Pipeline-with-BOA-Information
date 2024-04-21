@@ -52,7 +52,7 @@ Currectly models are ran using BGLR package;
 - Bayes A
 - Bayes B
 - Bayes C
-- AI Reproducible Kernel Hilbert Space (RKS)
+- AI Reproducible Kernel Hilbert Space (RKHS)
 
 ## Contributing
 Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.  
